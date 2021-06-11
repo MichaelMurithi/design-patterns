@@ -27,7 +27,7 @@ namespace CSharp{
             this.State = new Random().Next(0, 10);
             Thread.Sleep(15);
 
-            Console.WriteLine("Subject: Finally, my state has changed to:", this.State);
+            Console.WriteLine("Subject: Finally, my state has changed to:" + this.State);
             this.Notify();
         }
     }

@@ -7,8 +7,10 @@ namespace CSharp.Observers{
             if(subj.State == 0 || subj.State >= 2){
                 Console.WriteLine("First Observer: I just reacted to a state where the subject state is ",subj.State);
             }
-            
-
+            else
+            {
+                Console.WriteLine("Second Observer: So bad I cannot react to such a state");
+            }    
         }
     }
 }
